@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lipsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是提示文本框" />
+
+    <Button
+        android:id="@+id/btView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:text="发送事件" />
+
+    <Button
+        android:id="@+id/jumpView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="jumpActivity"
+        android:text="跳转" />
+
+
+</LinearLayout>
